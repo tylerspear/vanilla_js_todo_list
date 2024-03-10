@@ -20,9 +20,21 @@
           </div>
         </div>
         
-        <ul class="list-group col-md-6 offset-md-3 mt-3" id="task-list">
-          <!-- To-Do items will be dynamically added here -->
-        </ul>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form class="input-group mb-3">
+              <input type="text" id="filter-tasks" class="form-control" placeholder="Filter to-do's">
+            </form>
+          </div>
+          <ul class="col-md-6 offset-md-3 my-3" id="task-list">
+            <!-- To-Do items will be dynamically added here -->
+          </ul>
+  
+          <div class="col-md-6 offset-md-3 text-center">
+            <button class="btn btn-danger" id="clear-tasks">Clear All</button>
+          </div>
+        </div>
+
       </div>
     <script src="script.js"></script>
 </body>
